@@ -1,23 +1,27 @@
+//@ts-ignore
+import { TanStackRouterRspack } from "@tanstack/router-plugin/rspack";
+
 module.exports = {
-	module: {
-		rules: [
-			{
-				test: /\.css$/,
-				use: [
-					{
-						loader: "postcss-loader",
-						options: {
-							postcssOptions: {
-								plugins: {
-									tailwindcss: {},
-									autoprefixer: {},
-								},
-							},
-						},
-					},
-				],
-				type: "css",
-			},
-		],
-	},
+  plugins: [TanStackRouterRspack()],
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: [
+          {
+            loader: "postcss-loader",
+            options: {
+              postcssOptions: {
+                plugins: {
+                  tailwindcss: {},
+                  autoprefixer: {},
+                },
+              },
+            },
+          },
+        ],
+        type: "css",
+      },
+    ],
+  },
 };
