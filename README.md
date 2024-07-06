@@ -1,29 +1,10 @@
-# Rsbuild Project
+# QudStack 🫦
 
-## Setup
+# 🤨 What is this?
+A Typescript React boilerplate for frontend development that consists of Quddus personal favourite packages.
 
-Install the dependencies:
-
-```bash
-pnpm install
-```
-
-## Get Started
-
-Start the dev server:
-
-```bash
-pnpm dev
-```
-
-Build the app for production:
-
-```bash
-pnpm build
-```
-
-Preview the production build locally:
-
-```bash
-pnpm preview
-```
+# 🔧 Current feature
+- RsBuild and RsPack for buildkit
+- Biome for linting
+- Tanstack Router for file-based routing
+- TailwindCSS for styling
