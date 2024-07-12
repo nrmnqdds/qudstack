@@ -5,6 +5,7 @@ A Typescript React boilerplate for frontend development that consists of Quddus 
 
 # 🔧 Current feature
 - RsBuild and RsPack for buildkit
+- React Compiler
 - Biome for linting
 - Tanstack Router for file-based routing
 - Tanstack Query for data fetching
