@@ -2,14 +2,21 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./app";
 import "./index.css";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 
-const rootEl = document.getElementById("root");
-
-if (rootEl) {
-  const root = ReactDOM.createRoot(rootEl);
-  root.render(
+const app = (
+  <HelmetProvider>
     <React.StrictMode>
       <App />
-    </React.StrictMode>,
-  );
+      <Helmet>
+        <title>QudStack</title>
+      </Helmet>
+    </React.StrictMode>
+  </HelmetProvider>
+);
+
+const rootEl = document.querySelector("#root");
+
+if (rootEl) {
+  ReactDOM.hydrateRoot(rootEl, app);
 }
