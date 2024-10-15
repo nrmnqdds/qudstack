@@ -9,8 +9,8 @@
 		"lint": "biome lint"
 	},
 	"dependencies": {
-		"@tanstack/react-query": "^5.50.1",
-		"@tanstack/react-router": "^1.43.12",
+		"@tanstack/react-query": "^5.59.14",
+		"@tanstack/react-router": "^1.67.0",
 		"react": "19.0.0-beta-26f2496093-20240514",
 		"react-dom": "19.0.0-beta-26f2496093-20240514",
 		"react-helmet-async": "^2.0.5"
@@ -20,18 +20,18 @@
 		"@rsbuild/core": "1.0.0-alpha.4",
 		"@rsbuild/plugin-babel": "1.0.0-alpha.9",
 		"@rsbuild/plugin-image-compress": "1.0.0-alpha.4",
-		"@rsbuild/plugin-node-polyfill": "^1.0.1",
+		"@rsbuild/plugin-node-polyfill": "^1.0.4",
 		"@rsbuild/plugin-react": "1.0.0-alpha.4",
 		"@rsbuild/plugin-type-check": "1.0.0-alpha.4",
-		"@tanstack/router-plugin": "^1.43.12",
-		"@types/node": "^20.14.10",
-		"@types/react": "^18.3.3",
-		"@types/react-dom": "^18.3.0",
-		"autoprefixer": "^10.4.19",
+		"@tanstack/router-plugin": "^1.66.1",
+		"@types/node": "^20.16.11",
+		"@types/react": "^18.3.11",
+		"@types/react-dom": "^18.3.1",
+		"autoprefixer": "^10.4.20",
 		"babel-plugin-react-compiler": "0.0.0-experimental-696af53-20240625",
-		"postcss": "^8.4.39",
+		"postcss": "^8.4.47",
 		"postcss-loader": "^8.1.1",
-		"tailwindcss": "^3.4.4",
-		"typescript": "^5.5.2"
+		"tailwindcss": "^3.4.14",
+		"typescript": "^5.6.3"
 	}
 }
