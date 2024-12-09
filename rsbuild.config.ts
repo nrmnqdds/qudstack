@@ -4,8 +4,6 @@ import { pluginImageCompress } from "@rsbuild/plugin-image-compress";
 import { pluginNodePolyfill } from "@rsbuild/plugin-node-polyfill";
 import { pluginReact } from "@rsbuild/plugin-react";
 import { pluginTypeCheck } from "@rsbuild/plugin-type-check";
-
-//@ts-ignore
 import { TanStackRouterRspack } from "@tanstack/router-plugin/rspack";
 
 export default defineConfig({
@@ -25,6 +23,6 @@ export default defineConfig({
   tools: {
     rspack: {
       plugins: [TanStackRouterRspack()],
-    }
-  }
+    },
+  },
 });
