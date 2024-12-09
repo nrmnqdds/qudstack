@@ -12,7 +12,7 @@ importers:
         specifier: ^5.60.6
         version: 5.62.3(react@19.0.0)
       '@tanstack/react-router':
-        specifier: ^1.82.1
+        specifier: ^1.87.1
         version: 1.87.1(@tanstack/router-generator@1.86.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       react:
         specifier: 19.0.0
@@ -46,7 +46,7 @@ importers:
         specifier: 1.0.1
         version: 1.0.1(@rsbuild/core@1.1.4)(typescript@5.7.2)
       '@tanstack/router-plugin':
-        specifier: ^1.81.9
+        specifier: ^1.86.0
         version: 1.86.0(@rsbuild/core@1.1.4)(webpack@5.97.1)
       '@types/node':
         specifier: ^22.9.1

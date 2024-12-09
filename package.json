@@ -4,14 +4,14 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "rsbuild dev --open",
-    "build": "rsbuild build",
+    "build": "rsbuild build && tsc --noEmit",
     "preview": "rsbuild preview",
     "lint": "biome lint --write --unsafe ./src/",
     "format": "biome format --write ./src/"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.60.6",
-    "@tanstack/react-router": "^1.82.1",
+    "@tanstack/react-router": "^1.87.1",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "react-helmet-async": "^2.0.5"
@@ -24,7 +24,7 @@
     "@rsbuild/plugin-node-polyfill": "^1.2.0",
     "@rsbuild/plugin-react": "1.0.7",
     "@rsbuild/plugin-type-check": "1.0.1",
-    "@tanstack/router-plugin": "^1.81.9",
+    "@tanstack/router-plugin": "^1.86.0",
     "@types/node": "^22.9.1",
     "@types/react": "19.0.0",
     "@types/react-dom": "19.0.0",
