@@ -12,6 +12,7 @@
   "dependencies": {
     "@tanstack/react-query": "^5.62.11",
     "@tanstack/react-router": "^1.92.9",
+    "@tanstack/react-router-with-query": "^1.74.0",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "react-helmet-async": "^2.0.5"
