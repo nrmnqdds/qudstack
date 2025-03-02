@@ -1,5 +1,5 @@
-import { createLazyFileRoute } from "@tanstack/react-router";
 import { useQuery } from "@tanstack/react-query";
+import { createLazyFileRoute } from "@tanstack/react-router";
 
 export const Route = createLazyFileRoute("/")({
 	component: IndexPage,
@@ -19,6 +19,7 @@ function IndexPage() {
 			const res = await fetch("https://jsonplaceholder.typicode.com/todos");
 			const json = await res.json();
 
+			console.log(json);
 			return json;
 		},
 	});

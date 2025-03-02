@@ -18,5 +18,7 @@ const app = (
 const rootEl = document.querySelector("#root");
 
 if (rootEl) {
-	ReactDOM.hydrateRoot(rootEl, app);
+	const root = ReactDOM.createRoot(rootEl);
+
+	root.render(app);
 }

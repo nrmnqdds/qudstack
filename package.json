@@ -12,7 +12,6 @@
   "dependencies": {
     "@tanstack/react-query": "^5.62.11",
     "@tanstack/react-router": "^1.92.9",
-    "@tanstack/react-router-with-query": "^1.74.0",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "react-helmet-async": "^2.0.5"
@@ -25,15 +24,12 @@
     "@rsbuild/plugin-node-polyfill": "^1.2.0",
     "@rsbuild/plugin-react": "1.1.0",
     "@rsbuild/plugin-type-check": "1.2.0",
+    "@tailwindcss/postcss": "^4.0.9",
     "@tanstack/router-plugin": "^1.91.1",
     "@types/node": "^22.10.2",
     "@types/react": "19.0.2",
     "@types/react-dom": "19.0.2",
-    "autoprefixer": "^10.4.20",
-    "babel-plugin-react-compiler": "19.0.0-beta-b2e8e9c-20241220",
-    "postcss": "^8.4.49",
-    "postcss-loader": "^8.1.1",
-    "tailwindcss": "^3.4.17",
+    "tailwindcss": "^4.0.9",
     "typescript": "^5.7.2"
   }
 }

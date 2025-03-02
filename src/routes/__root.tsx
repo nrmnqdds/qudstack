@@ -1,11 +1,7 @@
-import {
-	Outlet,
-	ScrollRestoration,
-	createRootRouteWithContext,
-} from "@tanstack/react-router";
-import type { QueryClient } from "@tanstack/react-query";
 import { DefaultCatchBoundary } from "@/components/default-catch-boundary";
 import Navbar from "@/components/navbar";
+import type { QueryClient } from "@tanstack/react-query";
+import { Outlet, createRootRouteWithContext } from "@tanstack/react-router";
 
 export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 	{
@@ -26,7 +22,6 @@ function RootComponent() {
 		<RootDocument>
 			<Navbar />
 			<Outlet />
-			<ScrollRestoration />
 		</RootDocument>
 	);
 }
