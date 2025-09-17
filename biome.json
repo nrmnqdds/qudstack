@@ -13,5 +13,11 @@
       "pnpm-lock.yaml",
       "src/routeTree.gen.ts"
     ]
+  },
+  "javascript": {
+    "formatter": {
+      "quoteStyle": "double",
+      "jsxQuoteStyle": "double"
+    }
   }
 }
